@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/*" element={<Home />} />
+        <Route path="/*" element={<Home />} /> {/*Star is nested links happens with in the component */}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

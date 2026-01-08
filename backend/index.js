@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config(); //process.env.value
 
 const express = require("express");
 const mongoose = require("mongoose");
@@ -13,10 +13,12 @@ const { OrdersModel } = require("./model/OrdersModel");
 const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
 
-const app = express();
+const app = express(); //create new application for use
+
 
 app.use(cors());
 app.use(bodyParser.json());
+
 
 // app.get("/addHoldings", async (req, res) => {
 //   let tempHoldings = [
@@ -142,6 +144,7 @@ app.use(bodyParser.json());
 //     });
 
 //     newHolding.save();
+     //
 //   });
 //   res.send("Done!");
 // });
@@ -188,7 +191,7 @@ app.use(bodyParser.json());
 // });
 
 app.get("/allHoldings", async (req, res) => {
-  let allHoldings = await HoldingsModel.find({});
+  let allHoldings = await HoldingsModel.find({}); //gets from whole dataset
   res.json(allHoldings);
 });
 

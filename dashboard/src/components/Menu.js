@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Menu = () => {
-  const [selectedMenu, setSelectedMenu] = useState(0);
+  const [selectedMenu, setSelectedMenu] = useState(0);{/*zero is intial position and 2,3,.. */}
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
 
   const handleMenuClick = (index) => {
@@ -14,7 +14,7 @@ const Menu = () => {
     setIsProfileDropdownOpen(!isProfileDropdownOpen);
   };
 
-  const menuClass = "menu";
+  const menuClass = "menu"; //These are classes for animation
   const activeMenuClass = "menu selected";
 
   return (

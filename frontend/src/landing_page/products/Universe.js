@@ -11,28 +11,28 @@ function Universe() {
         </p>
 
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png" />
+          <img src="media/images/smallcaseLogo.png" style={{ maxWidth: "150px" }} alt=""/>
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png" />
-          <p className="text-small text-muted">Thematic investment platform</p>
+          <img src="media/images/streakLogo.png" style={{ maxWidth: "150px" }} alt=""/>
+          <p className="text-small text-muted">Algo & strategy platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png" />
-          <p className="text-small text-muted">Thematic investment platform</p>
+          <img src="media/images/sensibullLogo.svg" style={{ maxWidth: "150px" }} alt=""/>
+          <p className="text-small text-muted">Options trading platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png" />
-          <p className="text-small text-muted">Thematic investment platform</p>
+          <img src="media/images/zerodhaFundhouse.png" style={{ maxWidth: "150px" }} alt=""/>
+          <p className="text-small text-muted">Asset management</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png" />
-          <p className="text-small text-muted">Thematic investment platform</p>
+          <img src="media/images/goldenpiLogo.png" style={{ maxWidth: "150px" }} alt=""/>
+          <p className="text-small text-muted">Bonds trading platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png" />
-          <p className="text-small text-muted">Thematic investment platform</p>
+          <img src="media/images/dittoLogo.png" style={{ maxWidth: "150px" }} alt=""/>
+          <p className="text-small text-muted">Insurance</p>
         </div>
         <button
           className="p-2 btn btn-primary fs-5 mb-5"
